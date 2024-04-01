@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SideBar from '../components/toolPage/SideBar'
+import Hero from '../components/toolPage/Hero'
+---
+
+<Layout title="Tool">
+    <section class="flex">
+        <SideBar client:load/>
+        <Hero client:only/>
+    </section>
+</Layout>
