@@ -4,7 +4,7 @@ type Props = {}
 
 const NavBar = (props: Props) => {
     return (
-        <nav className=" flex justify-between items-center bg-background mt-6 text-white">
+        <nav className=" flex justify-between items-center bg-background mt-6 text-black">
             <div className="ml-10">
                 <h1>XLSX2Site</h1>
             </div>
@@ -15,8 +15,8 @@ const NavBar = (props: Props) => {
                 <li><a href="">Examples</a></li>
                 <li><a href="">Contact</a></li>
                 <li>
-                    <button className=" bg-white text-black rounded-md py-1 px-4">
-                        REGISTER
+                    <button className=" bg-black text-white rounded-md py-2 px-6">
+                        Register
                     </button>
                 </li>
             </ul>

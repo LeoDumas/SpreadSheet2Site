@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
     }, []);
 
     return (
-        <div className=' flex flex-row flex-wrap'>
+        <div className=' flex flex-wrap justify-evenly max-h-screen overflow-y-auto mx-auto gap-x-2 gap-y-10'>
             {items.map((item: any, index: number) => (
                 <ItemCard
                     key={index}

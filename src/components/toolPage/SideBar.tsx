@@ -11,7 +11,7 @@ const SideBar = (props: Props) => {
     };
 
     return (
-        <aside className="flex justify-center bg-slate-950 h-screen w-96 text-white pt-10">
+        <aside className="flex justify-center bg-slate-950 h-screen w-80 text-white pt-10">
             <button
                 className="bg-white self-start text-black rounded-md py-1 px-4"
                 onClick={AddItemClick}
